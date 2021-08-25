@@ -46,7 +46,6 @@
             this.procStatus = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dSize = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
             this.dName = new System.Windows.Forms.Label();
             this.UsedSpace = new CircularProgressBar.CircularProgressBar();
             this.freeSpace = new CircularProgressBar.CircularProgressBar();
@@ -250,7 +249,6 @@
             // groupBox1
             // 
             this.groupBox1.Controls.Add(this.dSize);
-            this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.dName);
             this.groupBox1.Controls.Add(this.UsedSpace);
             this.groupBox1.Controls.Add(this.freeSpace);
@@ -266,20 +264,10 @@
             // dSize
             // 
             this.dSize.AutoSize = true;
-            this.dSize.Location = new System.Drawing.Point(30, 52);
+            this.dSize.Location = new System.Drawing.Point(2, 51);
             this.dSize.Name = "dSize";
             this.dSize.Size = new System.Drawing.Size(0, 15);
             this.dSize.TabIndex = 8;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(2, 51);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(34, 15);
-            this.label6.TabIndex = 7;
-            this.label6.Text = "Size:";
             // 
             // dName
             // 
@@ -469,7 +457,6 @@
         private CircularProgressBar.CircularProgressBar freeSpace;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Label dSize;
-        private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label dName;
         private System.Windows.Forms.Label procStatus;
         private System.Windows.Forms.Label creditsLabel;
